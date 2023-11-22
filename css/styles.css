@@ -210,6 +210,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
   width: 264px;
   height: 112px;
   border-radius: 4px;
@@ -268,6 +269,29 @@ img {
 .description-team {
   padding: 32px 0;
 }
+
+.social-links {
+  display: flex;
+  margin-top: 8px;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.social-links-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
+  padding: 12px;
+}
+
+.social-links .icon {
+  fill: #f4f4fd;
+}
+
 /* 4th section */
 .portfolio {
   padding: 120px 0;
