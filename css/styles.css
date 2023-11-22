@@ -118,6 +118,7 @@ img {
 /* 1st section */
 .hero {
   background-color: #2e2f42;
+
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -126,8 +127,11 @@ img {
     url(../images/background/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover 1440px;
+  background-size: cover;
   background-clip: padding-box;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   color: #fff;
@@ -218,6 +222,9 @@ img {
 .teams {
   background-color: #f4f4fd;
   padding: 120px 0;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title {
@@ -298,6 +305,9 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-foot {
   color: #4d5ae5;
