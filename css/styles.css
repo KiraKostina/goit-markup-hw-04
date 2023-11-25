@@ -75,6 +75,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 
 .link:hover,
@@ -105,7 +106,6 @@ img {
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -118,6 +118,7 @@ img {
 .menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .page-navigation {
   display: flex;
@@ -252,7 +253,6 @@ img {
 .teams {
   background-color: #f4f4fd;
   padding: 120px 0;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -398,7 +398,6 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
